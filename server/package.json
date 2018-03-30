@@ -1,0 +1,22 @@
+{
+  "name": "waterbowl-server",
+  "version": "0.0.1",
+  "description": "Faucet for Nekonium server side",
+  "main": "index.js",
+  "repository": "https://github.com/Cupmouse/WaterBowl.git",
+  "author": "Cupmouse",
+  "license": "GPL-3.0",
+  "scripts": {
+    "build": "babel src -d build"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.0",
+    "url": "^0.11.0",
+    "web3": "^1.0.0-beta.33"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-env": "^2.4.1"
+  }
+}
